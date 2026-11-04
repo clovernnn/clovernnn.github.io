@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1020">
+<title>H-1B & PERM Watch | Clover's Career Lab</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1020;--panel:#141c30;--ink:#e9eefc;--muted:#aab6d0;--line:#29354e;--accent:#76b5ff;--good:#8be0bd;--warn:#ffd479;--bad:#ff9a9a}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top left,#172946 0,#0b1020 55%);color:var(--ink);font:16px/1.6 Inter,system-ui,-apple-system,sans-serif}
+main{max-width:1180px;margin:auto;padding:36px 22px 90px}nav{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:42px}
+nav a{color:var(--ink);text-decoration:none;border:1px solid var(--line);border-radius:10px;padding:9px 14px;background:#1a2640}nav a.active{background:#244a70;border-color:#467cab}
+h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.12;letter-spacing:-.035em;margin:10px 0}h2{font-size:1.35rem;margin:0 0 14px}h3{font-size:1rem;margin:0 0 5px}
+p{color:var(--muted)}a{color:#a1d0ff}.eyebrow{color:var(--good);font-size:.84rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800}
+.lead{font-size:1.08rem;max-width:850px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:24px 0}
+.card,.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px}.panel{margin:18px 0}
+.stat{font-size:1.55rem;font-weight:800}.sub{color:var(--muted);font-size:.88rem}.badge{display:inline-block;border-radius:999px;padding:3px 9px;font-size:.74rem;font-weight:800;letter-spacing:.03em}
+.green{background:#173d32;color:#a9f1d4}.yellow{background:#4a3a16;color:#ffe3a0}.red{background:#4a2326;color:#ffb6bb}.gray{background:#26334c;color:#c7d5ed}
+table{width:100%;border-collapse:collapse;font-size:.91rem}th,td{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:12px 9px}th{color:#c8d6ef;background:#10182a;position:sticky;top:0}td{color:#dfe7f7}
+table p{margin:2px 0}.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:14px}.scroll table{min-width:930px}.changed{border-left:3px solid var(--accent);padding-left:13px}
+.alert{border-left:3px solid var(--warn);padding:12px 14px;background:#171d2d;border-radius:8px;margin:11px 0}.danger{border-left-color:var(--bad)}.ok{border-left-color:var(--good)}
+ul{padding-left:20px}li{margin-bottom:7px}.source{font-size:.86rem;color:var(--muted)}footer{margin-top:42px;color:#8999b5;font-size:.84rem}
+@media(max-width:760px){.grid{grid-template-columns:1fr}main{padding:22px 14px 65px}}
+</style>
+</head>
+<body><main>
+<nav>
+<a href="./">Job Switch Sprint</a>
+<a href="ads-ranking.html">Ads Ranking ML Lab</a>
+<a class="active" href="h1b-perm-tracker.html">H-1B / PERM Watch</a>
+</nav>
+
+<section>
+<div class="eyebrow">Immigration employer tracker · Updated daily</div>
+<h1>H-1B & PERM Watch</h1>
+<p class="lead">A source-backed tracker for U.S. tech employers relevant to DS/MLE/SWE candidates. It separates official government actions from employee/community reports, and treats “green” as favorable evidence — never as a guarantee.</p>
+</section>
+
+<div class="grid">
+<div class="card"><div class="stat">Nov 3, 2026</div><div class="sub">Last verified refresh</div></div>
+<div class="card"><div class="stat">8:00 AM PT</div><div class="sub">Daily scheduled refresh</div></div>
+<div class="card"><div class="stat">300 days</div><div class="sub">DOL PERM analyst-review average, last 30 days as of Oct 31</div></div>
+</div>
+
+<section class="panel">
+<h2>Latest policy / enforcement alerts</h2>
+<div class="alert danger"><strong>Microsoft, Adobe + major IT outsourcing firms:</strong> federal PERM processing suspension reported Oct. 8, 2026. Treat these employers as <span class="badge red">RED</span> for PERM until the suspension is lifted. <a href="https://www.reuters.com/business/us-suspending-permanent-residency-program-for-microsoft-vance-says-2026-10-08/">Reuters</a></div>
+<div class="alert danger"><strong>Cloudera:</strong> two-year PERM debarment under the Oct. 2026 DOJ/DOL settlement. <a href="https://www.justice.gov/opa/pr/us-departments-justice-and-labor-secure-settlement-cloudera-enforce-two-year-perm-debarment">DOJ</a></div>
+<div class="alert"><strong>Instacart / Maplebear:</strong> not debarred, but an Oct. 20 DOJ/EEOC settlement requires substantial changes to PERM recruitment and three years of monitoring. This increases process uncertainty. <a href="https://www.justice.gov/opa/pr/civil-rights-division-and-equal-employment-opportunity-commission-secure-5000000-joint">DOJ</a></div>
+<div class="alert"><strong>H-1B visa stamping:</strong> State Department online-presence review continues to apply to H-1B applicants. <a href="https://travel.state.gov/en/newsroom/visas/2026/announcement-of-expanded-screening-and-vetting-for-visa-applicants.html?pubDate=20261010">State Department</a></div>
+</section>
+
+<section class="panel">
+<h2>Employer tracker</h2>
+<div class="scroll"><table>
+<thead><tr><th>Employer</th><th>Status</th><th>PERM read</th><th>H-1B read</th><th>Evidence / caution</th></tr></thead>
+<tbody>
+<tr><td><strong>Snowflake</strong></td><td><span class="badge green">GREEN</span></td><td>Day-1 batch PERM reported</td><td>Active sponsor</td><td>Oct. 2026 employee referral explicitly reports Day-1 batch PERM; poster says I-140 was recently approved. <a href="https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=1191790">Community report</a></td></tr>
+<tr><td><strong>Databricks</strong></td><td><span class="badge green">GREEN</span></td><td>Day-1 / early PERM reported</td><td>Active sponsor</td><td>Recent employee/candidate reports remain favorable; verify the exact legal entity, location and current batch before accepting an offer based on immigration timing.</td></tr>
+<tr><td><strong>Airbnb</strong></td><td><span class="badge green">GREEN</span></td><td>Day-1 reported</td><td>Active sponsor</td><td>Apr. 2026 community report says Day-1; Aug. discussions show some LMT uncertainty. <a href="https://www.1point3acres.com/bbs/thread-1171356-2-1.html">Community report</a></td></tr>
+<tr><td><strong>F5</strong></td><td><span class="badge green">GREEN</span></td><td>Green-card process reported normal</td><td>Active sponsor</td><td>Apr. 2026 employee report said the process was operating normally. <a href="https://www.1point3acres.com/bbs/thread-1171356-2-1.html">Community report</a></td></tr>
+
+<tr><td><strong>NVIDIA</strong></td><td><span class="badge yellow">YELLOW</span></td><td>Day-1/batch reported, but outcome concerns</td><td>Strong sponsor</td><td>Some 2026 reports describe Day-1/batch access, while a separate cluster reports PERM denials and LMT concerns. Do not treat NVIDIA as uniformly “safe.” <a href="https://www.1point3acres.com/bbs/tag/NvidiaPERM%E6%8B%92%E6%89%B9%E6%BD%AE-10058-1.html">Denial discussion</a></td></tr>
+<tr><td><strong>Tesla</strong></td><td><span class="badge yellow">YELLOW</span></td><td>Day-1 reported for some roles/levels</td><td>Active sponsor</td><td>A Jul. 2026 return-offer report describes Day-1 PERM. Confirm the policy for the exact role/site. <a href="https://www.1point3acres.com/bbs/tag/%E6%99%92%E5%B7%A5%E8%B5%84%E6%8A%96%E5%8C%85%E8%A2%B1-375-58.html">Community report</a></td></tr>
+<tr><td><strong>TikTok / ByteDance</strong></td><td><span class="badge yellow">YELLOW</span></td><td>Day-1 reputation, LMT can be slow</td><td>Strong sponsor</td><td>2026 reports describe repeated LMT attempts for some teams. Entity, role and location materially affect outcomes. <a href="https://www.1point3acres.com/bbs/tag/%E5%A4%A7%E5%8E%82PERM%E9%87%8D%E5%90%AF-10044-1.html">Community tracker</a></td></tr>
+<tr><td><strong>Instacart / Maplebear</strong></td><td><span class="badge yellow">YELLOW</span></td><td>Active but under monitoring</td><td>Active sponsor</td><td>Oct. 2026 DOJ/EEOC settlement requires PERM process changes and monitoring; not a debarment. <a href="https://www.justice.gov/opa/pr/civil-rights-division-and-equal-employment-opportunity-commission-secure-5000000-joint">DOJ</a></td></tr>
+<tr><td><strong>Stripe</strong></td><td><span class="badge yellow">YELLOW</span></td><td>Active; verify current LMT</td><td>Active sponsor</td><td>Recent evidence supports continued sponsorship, but role/level eligibility and current LMT success should be confirmed with recruiting.</td></tr>
+<tr><td><strong>Roblox</strong></td><td><span class="badge yellow">YELLOW</span></td><td>Historically early start</td><td>Active sponsor</td><td>Historically immigration-friendly; current company-wide initiation timing is less well verified than Snowflake's.</td></tr>
+<tr><td><strong>Pinterest</strong></td><td><span class="badge yellow">YELLOW</span></td><td>Historically Day-1</td><td>Active sponsor</td><td>Prior favorable policy reports exist; recent LMT/freeze conditions are less clear.</td></tr>
+<tr><td><strong>Cisco</strong></td><td><span class="badge yellow">YELLOW</span></td><td>High-volume sponsor; start timing unclear</td><td>Strong sponsor</td><td>Good sponsorship history, but no sufficiently current universal Day-1 rule verified.</td></tr>
+<tr><td><strong>Intel</strong></td><td><span class="badge yellow">YELLOW</span></td><td>Active; timing unclear</td><td>Strong sponsor</td><td>PERM activity exists, but initiation policy can depend on org/location and workforce actions.</td></tr>
+<tr><td><strong>Palantir</strong></td><td><span class="badge yellow">YELLOW</span></td><td>Recent PERM success; start timing unclear</td><td>Active sponsor</td><td>Positive case outcomes do not establish Day-1 initiation; verify recruiter/attorney policy.</td></tr>
+<tr><td><strong>OpenAI</strong></td><td><span class="badge yellow">YELLOW</span></td><td>PERM exists; timing not verified</td><td>Active sponsor</td><td>Do not assume Day-1 PERM without written/current recruiter confirmation.</td></tr>
+<tr><td><strong>Google / Meta / Amazon / Apple</strong></td><td><span class="badge yellow">YELLOW</span></td><td>Varies by employer, level and site</td><td>Strong sponsors</td><td>Large sponsorship programs do not imply universal Day-1 PERM; layoffs and LMT conditions can change eligibility/timing.</td></tr>
+
+<tr><td><strong>Microsoft</strong></td><td><span class="badge red">RED</span></td><td>PERM suspended</td><td>H-1B is a separate program</td><td>Federal PERM suspension reported Oct. 8, 2026. <a href="https://www.reuters.com/business/us-suspending-permanent-residency-program-for-microsoft-vance-says-2026-10-08/">Reuters</a></td></tr>
+<tr><td><strong>Adobe</strong></td><td><span class="badge red">RED</span></td><td>PERM suspended</td><td>H-1B is a separate program</td><td>Included in the Oct. 8 federal PERM suspension. <a href="https://www.reuters.com/business/us-suspending-permanent-residency-program-for-microsoft-vance-says-2026-10-08/">Reuters</a></td></tr>
+<tr><td><strong>Cloudera</strong></td><td><span class="badge red">RED</span></td><td>Two-year PERM debarment</td><td>H-1B is a separate program</td><td>DOJ/DOL settlement. <a href="https://www.justice.gov/opa/pr/us-departments-justice-and-labor-secure-settlement-cloudera-enforce-two-year-perm-debarment">DOJ</a></td></tr>
+</tbody></table></div>
+</section>
+
+<section class="panel">
+<h2>DOL PERM system snapshot</h2>
+<p>As of <strong>Oct. 31, 2026</strong>, DOL FLAG reports average PERM analyst-review processing times of <strong>300 days (last 30 days)</strong>, <strong>315 days (last 90 days)</strong>, and <strong>360 days (last 180 days)</strong>. PERM prevailing-wage processing was working on <strong>June 2026</strong> receipts as of Sept. 30.</p>
+<p class="source">Source: <a href="https://flag.dol.gov/processingtimes">DOL FLAG Processing Times</a></p>
+</section>
+
+<section class="panel">
+<h2>Recruiter questions that matter</h2>
+<ul>
+<li>For this exact role, legal entity and work location, when can PERM start?</li>
+<li>Is PERM batch or individual?</li>
+<li>Are recent candidates in this job family/location passing the labor-market test?</li>
+<li>Are layoffs, cooldown periods, recruitment pauses or government actions affecting new cases?</li>
+<li>Will the company support an H-1B transfer immediately, and which costs/fees are company-paid?</li>
+</ul>
+</section>
+
+<section class="panel">
+<h2>Status methodology</h2>
+<p><span class="badge green">GREEN</span> Recent evidence supports favorable PERM initiation/movement and no known major blocker.</p>
+<p><span class="badge yellow">YELLOW</span> Sponsorship exists, but timing, LMT, layoffs, enforcement or evidence quality creates material uncertainty.</p>
+<p><span class="badge red">RED</span> A known suspension, debarment or comparable barrier currently makes PERM unreliable.</p>
+<p class="source">Official government sources override community reports. Community posts are used only for employer policies that are rarely published, such as Day-1 timing, batch cycles and LMT experience.</p>
+</section>
+
+<footer>Informational tracker only; not legal advice. Employer immigration policies may vary by entity, level, role and location. Do not rely on a color alone when deciding whether to change jobs.</footer>
+</main></body></html>
